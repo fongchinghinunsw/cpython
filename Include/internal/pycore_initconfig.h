@@ -1,5 +1,5 @@
-#ifndef Py_INITCONFIG_H
-#define Py_INITCONFIG_H
+#ifndef Py_INTERNAL_CORECONFIG_H
+#define Py_INTERNAL_CORECONFIG_H
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -164,4 +164,4 @@ PyAPI_FUNC(PyObject*) _Py_GetConfigsAsDict(void);
 #ifdef __cplusplus
 }
 #endif
-#endif /* !Py_INITCONFIG_H */
+#endif /* !Py_INTERNAL_CORECONFIG_H */
